@@ -1,6 +1,6 @@
 import '../../styles/App.css';
 import { items } from './items';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function List() {
   return (

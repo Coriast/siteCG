@@ -6,8 +6,8 @@ export default function NavTop() {
     <header>
       <nav>
         <ul className="nav_links">
-          <li><Link to="/">Início</Link></li>
-          <li><Link to="/Docs">Documentação</Link></li>
+          <li><Link to="/siteCG">Início</Link></li>
+          <li><Link to="/siteCG/Docs">Documentação</Link></li>
         </ul>
       </nav>
     </header>

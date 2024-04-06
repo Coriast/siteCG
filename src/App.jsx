@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/Exercises/Transformations" element={<Transformations />}/>
+        <Route path="/siteCG" element={<Home />}/>
+        <Route path="/siteCG/Exercises/Transformations" element={<Transformations />}/>
         <Route path="*" element={<NoMatch />}/>
       </Routes>
     </>
@@ -30,7 +30,7 @@ function NoMatch() {
     <div>
       <h2>Nada aqui!</h2>
       <p>
-        <Link to="/">Volte para página inicial.</Link>
+        <Link to="/siteCG">Volte para página inicial.</Link>
       </p>
     </div>
   );
