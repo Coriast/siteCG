@@ -1,4 +1,4 @@
-# Processo de Deploy no Github Pages
+# Processo de Deploy no Github pages
 name: Deploy
 
 on:
