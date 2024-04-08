@@ -1,22 +1,17 @@
 import './styles/App.css'
 import NavTop from "./components/NavTop/index.jsx";
 import List from "./components/List/index.jsx";
-import Transformations from "./pages/Exercises/Transformations/page.jsx"
-import {Routes, Route, Link} from "react-router-dom";
+import {Link, Outlet} from "react-router-dom";
 
 export default function App() {
   return (
     <>
-      <Routes>
-        <Route path="/siteCG" element={<Home />}/>
-        <Route path="/siteCG/Exercises/Transformations" element={<Transformations />}/>
-        <Route path="*" element={<NoMatch />}/>
-      </Routes>
+      <Outlet />
     </>
   )
 }
 
-function Home() {
+export function Home() {
 return (
     <>
       <NavTop />
@@ -25,7 +20,7 @@ return (
   )
 }
 
-function NoMatch() {
+export function NoMatch() {
   return (
     <div>
       <h2>Nada aqui!</h2>

@@ -1,5 +1,6 @@
 {
   "name": "sitecg",
+  "homepage": "https://coriast.github.io/siteCG/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
